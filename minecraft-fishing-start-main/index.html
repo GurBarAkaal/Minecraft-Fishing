@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minecraft Fishing</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>Minecraft Fishing</h1>
+    <hr />
+
+    <h2>Select a Character:</h2>
+    <p>
+      <select id="character-select">
+        <option value="steve">Steve</option>
+        <option value="alex">Alex</option>
+        <option value="villager">Villager</option>
+      </select>
+    </p>
+    <p>
+      <img id="steve-img" class="character-img active" src="img/steve.jpg" alt="Steve" />
+      <img id="alex-img" class="character-img" src="img/alex.jpg" alt="Alex" />
+      <img id="villager-img" class="character-img" src="img/villager.jpg" alt="Villager" />
+    </p>
+    <hr/>
+
+    <h2>Simulate Fishing</h2>
+    <p>
+      <button id="fish-btn">Fish</button> 
+      <button id="plus5">+5</button>
+      <button id="until200">Until 200 Cod</button>
+      <input type="number" id="user_choice"></input>
+      <button id="sort_fish">Sort Fish</button>
+    </p>
+
+    <p>
+      <img id="result-img" src="img/Fishing-Rod.png" alt="Pufferfish" />
+    </p>
+
+    <p>
+      <img src="img/Raw-Cod.png" alt="Raw Cod" width="20px" />
+      Raw Cod: <span id="num-cod">0</span> |
+      <img src="img/Raw-Salmon.png" alt="Raw Salmon" width="20px" />
+      Raw Salmon: <span id="num-salmon">0</span>
+    </p>
+    <p>
+      <img src="img/Tropical-Fish.png" alt="Tropical Fish" width="20px" />
+      Tropical Fish: <span id="num-tropical">0</span> |
+      <img src="img/Pufferfish.png" alt="Pufferfish" width="20px" />
+      Pufferfish: <span id="num-puffer">0</span>
+    </p>
+   
+
+    <h2>Fish Inventory</h2>
+    <p id="inv">
+      
+    </p>
+  </body>
+
+</html>
